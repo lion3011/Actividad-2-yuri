@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+header{
+    background-color: darkgrey;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    padding: 0px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+}
+.nombre>h1{
+    font-size: 100px;
+}
+.nombre>h2{
+    font-size: 38px;
+}
+img{
+    height: 9rem;
+    width: 9rem;
+}
+
+header>hr{
+    border: 5px solid black;
+}
+
+.menu{
+    background-color: rgb(241, 189, 15);
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    border-radius: 0px 0px 25px 25px;
+}
+.menu>a{
+    height: 3rem;
+    size: 30px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.datosizquierda{
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+    width: 21rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.izq{
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 5px;
+    width: 20rem;
+    height: 14rem;
+    align-items: center;
+}
+.izquierda>h1{
+    font-size: 20px;
+    color: white;
+    height: 3rem;
+    display: flex;
+    border-radius: 25px 25px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 10px 15px;
+    height: 10rem;
+    background-color:darkgrey ;
+    width: 18rem;
+}
+.casillas{
+    display: flex;
+    height: 2rem;
+    justify-content:start;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton>button{
+    font-size: 25px;
+    border-radius: 5px;
+    width: 9rem;
+    border: 1px solid black;
+    background-color: rgb(241, 189, 15);
+}
+
+.izqinfe{
+    display: flex;
+    color: rgb(133, 133, 133);
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10px 5px;
+    width: 19rem;
+    height: 14rem;
+    align-items: center;
+}
+.cubo{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 20rem; 
+    font-size: 13px;
+    color: yellow;
+}
+.cubos{ 
+    display: flex;
+    justify-content: center;
+    background-color: rgb(63, 62, 62);
+    color: rgb(121, 117, 117);
+    font-size: 15px;
+    width: 20rem; 
+}
+.izqinfe>hr{
+    border: 1px solid grey;
+}
+
+.der{
+    padding: 10px 0px;
+    padding-right: 30px;
+}
+.der>div{
+    height: 31rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.der>div>section{
+    background-color: rgb(240, 232, 131);
+    padding: 15px 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+.sections{
+    border-radius: 20px 20px 0px 0px;
+}
+.sectioni{
+    border-radius: 0px 0px 20px 20px;
+}
+.titulo{
+    font-size: 25px;
+}
+.texto{
+    display: flex;
+    padding: 10px 5px;
+    font-size: 20px;
+}
+.texder{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+.imagen{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 10rem;
+    width: 10rem;
+}
+
+footer{
+    height: 5rem;
+    border-radius: 0px 0px 20px 20px;
+    color: white;
+    background-color: rgb(3, 66, 3);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+}
+footer>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
