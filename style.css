@@ -38,7 +38,7 @@ header{
 .nombre>h2{
     font-size: 38px;
 }
-img{
+.logo>img{
     height: 9rem;
     width: 9rem;
 }
@@ -156,50 +156,69 @@ main{
 
 .der{
     padding: 10px 0px;
-    padding-right: 30px;
-}
-.der>div{
-    height: 31rem;
+    border: 1px solid black;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.der>div>section{
-    background-color: rgb(240, 232, 131);
-    padding: 15px 25px;
+.derarr{
+    display: flex;
+    padding: 10px 10px;
+    gap: 5px;
+}
+.sectionsa{
+    background-color: #c7c5c2ef;
+    border-radius: 25px 0px 0px 0px;
+}
+.tituloa{
+    font-size: 12px;
+    background-color: black;
+    padding: 0px 5px;
+    border-radius: 25px 0px 0px 0px;
+}
+.texto>img{
+    height: 3rem;
+}
+.texder>a{
     color: black;
-    display: flex;
-    flex-direction: column;
-}
-.sections{
-    border-radius: 20px 20px 0px 0px;
-}
-.sectioni{
-    border-radius: 0px 0px 20px 20px;
-}
-.titulo{
-    font-size: 25px;
-}
-.texto{
-    display: flex;
-    padding: 10px 5px;
-    font-size: 20px;
-}
-.texder{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-a{
     text-decoration: none;
 }
-.imagen{
-    border: 2px solid black;
-    border-radius: 25px;
-    height: 10rem;
-    width: 10rem;
+
+.sectionsb{
+    background-color: #c7c5c2ef;
+    border-radius: 0px 25px 0px 0px;
+}
+.titulob{
+    font-size: 12px;
+    background-color: black;
+    padding: 0px 5px;
+    border-radius: 0px 25px 0px 0px;
 }
 
+.deraba{
+    display: flex;
+    padding: 10px 10px;
+    gap: 5px;
+}
+.sectionsc{
+    background-color: #c7c5c2ef;
+    border-radius: 0px 0px 0px 25px;
+}
+.tituloc{
+    font-size: 12px;
+    background-color: black;
+    padding: 0px 5px;
+}
+.sectionsd{
+    background-color: #c7c5c2ef;
+    border-radius: 0px 0px 25px 0px;
+}
+.titulod{
+    font-size: 12px;
+    background-color: black;
+    padding: 0px 5px;
+}
 footer{
     height: 5rem;
     border-radius: 0px 0px 20px 20px;
